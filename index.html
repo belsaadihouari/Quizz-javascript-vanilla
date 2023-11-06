@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JSV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1>
+      <span>Quizz</span>
+      Culture générale. ☑️
+    </h1>
+
+    <div class="global-container">
+
+      <form class="quiz-form">
+        <div class="question-block">
+          <h4>Combien d’habitants compte l’Allemagne ?</h4>
+
+          <div>
+            <input type="radio" id="Clovis" name="q1" value="a" checked />
+            <label for="Clovis">45,5 millions</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Lincoln" name="q1" value="b" />
+            <label for="Lincoln">82,3 millions</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Bonaparte" name="q1" value="c" />
+            <label for="Bonaparte">97 millions
+            </label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Qui fut le premier chancelier de la République Fédérale d’Allemagne ?</h4>
+          <div>
+            <input type="radio" id="date1" name="q2" value="a" checked />
+            <label for="date1">Willy Brandt</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date2" name="q2" value="b" />
+            <label for="date2">Konrad Adenauer</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date3" name="q2" value="c" />
+            <label for="date3">Gustav Heinemann</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Quel événement a marqué l’histoire allemande le 13 août 1961 ?</h4>
+          <div>
+            <input type="radio" id="date4" name="q3" value="a" checked />
+            <label for="date4">les Jeux Olympiques de Berlin</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date5" name="q3" value="b" />
+            <label for="date5">la construction du mur de Berlin</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date6" name="q3" value="c" />
+            <label for="date6">une catastrophe ferroviaire à Berlin
+            </label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>« Er ist wie aus dem Ei gepellt. » Que signifie cette expression allemande ?</h4>
+
+          <div>
+            <input type="radio" id="Ljubljana" name="q4" value="a" checked />
+            <label for="Ljubljana"> il est chauve</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Belgrade" name="q4" value="b" />
+            <label for="Belgrade"> il aime manger de l’omelette</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Bratislava" name="q4" value="c" />
+            <label for="Bratislava">il est tiré à quatre épingles</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Quelle chiffre correspond à : dreitausendsechshundertfünfundsiebzig ?</h4>
+          <div>
+            <input type="radio" id="m1" name="q5" value="a" checked />
+            <label for="m1">3675</label>
+          </div>
+
+          <div>
+            <input type="radio" id="m2" name="q5" value="b" />
+            <label for="m2">3657</label>
+          </div>
+
+          <div>
+            <input type="radio" id="m3" name="q5" value="c" />
+            <label for="m3">3650
+            </label>
+          </div>
+        </div>
+
+        <button type="submit">VALIDER ✔️</button>
+      </form>
+
+      <div class="results">
+        <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats.</span></h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
